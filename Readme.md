@@ -8,3 +8,7 @@
 
 ・Dockerfileにモジュールなどを追加した場合はコンテナを削除後以下コマンドを実行
     docker-compose up --build
+
+・Pythonコマンドを実行する場合、pip installする場合3を付けるようにする
+　　　　　　　　python3 hoge.py
+    pip3 install hoge
